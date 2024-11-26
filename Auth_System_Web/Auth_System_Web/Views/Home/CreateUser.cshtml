@@ -1,0 +1,109 @@
+﻿@model Auth_System_Web.Entities.User
+@{
+    ViewData["Title"] = "RegistrarUsuario";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+        @using (Html.BeginForm("CreateUser", "Home", FormMethod.Post, new { id = "userForm" }))
+        {
+            <div class="input-group mb-3">
+                @Html.TextBoxFor(m => m.email, new { @class = "form-control", @placeholder = "Su correo", @required = "true" })
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-envelope"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                @Html.TextBoxFor(m => m.userName, new { @class = "form-control", @placeholder = "Su nombre", @required = "true" })
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-envelope"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                @Html.TextBoxFor(m => m.UserLastName, new { @class = "form-control", @placeholder = "Sus apellidos", @required = "true" })
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-envelope"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                @Html.TextBoxFor(m => m.cedula, new { @class = "form-control", @placeholder = "Su cédula", @required = "true" })
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-envelope"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                @Html.TextBoxFor(m => m.password, new
+                    {
+                        @class = "form-control",
+                        @placeholder = "Contraseña",
+                        @type = "Password",
+                        @required = "true",
+                        @pattern = "^((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\\W]).{6,20})"
+                    })
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-lock"></span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-info" type="button" id="nextButton">Siguiente paso</button>
+
+            @if (ViewBag.MsjPantalla != null)
+            {
+                <div class="alert alert-warning" role="alert" style="text-align:center">
+                    @ViewBag.MsjPantalla
+                </div>
+            }
+
+            <!-- Video y botones de captura -->
+            <div id="video-container" style="display:none; position: relative; width: 640px; height: 480px; margin-top: 20px;">
+                <!-- Video de la cámara -->
+                <video id="video" width="640" height="480" autoplay></video>
+
+                <!-- Marco de guía del rostro -->
+                <img id="face-frame" src="~/img/faceShape.png" alt="Guía de rostro"
+                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0.5;">
+
+                <canvas id="canvas" style="display:none;"></canvas>
+
+                <div class="text-center mt-2">
+                    <button type="button" id="captureButton" class="btn btn-primary">Capturar Imagen</button>
+                    <!-- Div para el mensaje de retroalimentación de iluminación -->
+                    <div id="message" style="margin-top:10px; text-align:center;"></div>
+                    <!--Retroalimentacion para los rostros-->
+                    <div id="message-faces" style="margin-top:10px; text-align:center;"></div>
+
+                    
+                </div>
+            </div>
+
+            
+
+            <input type="hidden" id="imageBase64" name="imageBase64" />
+
+            <!-- Botón de envío del formulario -->
+            <div class="row">
+                <div class="col-12 flex-column">
+                    <button type="submit" class="btn btn-primary btn-block" id="submitButton" style="display:none;">Crear usuario</button>
+                    <button type="button" id="retry" class="btn btn-secondary mt-2" style="display:none;">Capturar otra vez</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script src="~/js/cameraUser.js"></script>

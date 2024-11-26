@@ -1,0 +1,56 @@
+﻿@model Auth_System_Web.Entities.User
+@{
+    ViewData["Title"] = "IniciarSesion";
+}
+
+<div class="hold-transition login-page">
+    <div class="login-box">
+
+        <div class="card">
+            <div class="card-body login-card-body">
+                <p class="login-box-msg">Inicio de sesión</p>
+
+                @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                {
+                    <div class="input-group mb-3">
+                        @Html.TextBoxFor(m => m.email, new { @class = "form-control", @placeholder = "Correo Electrónico", @type = "Email", @required = "true" })
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-envelope"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        @Html.TextBoxFor(m => m.password, new { @class = "form-control", @placeholder = "Contraseña", @type = "Password", @required = "true" })
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (ViewBag.MsjPantalla != null)
+                    {
+                        <div class="alert alert-warning" role="alert" style="text-align:center">
+                            @ViewBag.MsjPantalla
+                        </div>
+                    }
+
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                        </div>
+                    </div>
+                }
+
+                <div style="text-align:center; margin-top:2%">
+                    <a href="@Url.Action("RecuperarAcceso","Home")" class="text-center">¿Olvidaste la contraseña?</a>
+                </div>
+                <div style="text-align:center; margin-top:2%">
+                    <a href="@Url.Action("CreateUser","Home")" class="text-center">¿No tienes una cuenta?</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

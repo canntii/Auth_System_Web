@@ -1,0 +1,143 @@
+﻿@model Auth_System_Web.Entities.ScheduleUser
+@{
+    ViewData["Title"] = "Registrar Hora";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+        @if (ViewBag.markupValidation != true)
+        {
+            <!-- Formulario para capturar la foto -->
+            @using (Html.BeginForm("CompareFaces", "Schedule", FormMethod.Post, new { id = "compareFacesForm" }))
+            {
+                <!-- Campo oculto para almacenar la imagen capturada -->
+                @Html.HiddenFor(model => model.user.imageBase64, new { id = "imageBase64" })
+
+                <!-- Botón para iniciar la captura de imagen -->
+                <div class="row" id="cameraPreview">
+                    <div class="col-12">
+                        <video id="video" width="100%" height="auto" autoplay></video>
+                        <button type="button" class="btn btn-success mt-2" onclick="takeSnapshot()">Tomar Foto</button>
+                    </div>
+                </div>
+                <!-- Elemento canvas oculto para procesar la imagen -->
+                <canvas id="canvas" style="display:none;"></canvas>
+
+                <!-- Botón para enviar la imagen al controlador CompareFaces -->
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-primary btn-block" onclick="submitCompareFaces()">Validar Rostro</button>
+                    </div>
+                </div>
+            }  
+        }
+
+
+        <!-- Formulario para registrar el horario si el rostro es válido -->
+        @using (Html.BeginForm("RegisterSchedule", "Schedule", FormMethod.Post, new { id = "scheduleForm" }))
+        {
+            <!-- Campo oculto para almacenar la ubicación -->
+            @Html.HiddenFor(model => model.schedule.ubicacion, new { id = "location" })
+
+            <!-- Mostrar la sección para registrar si el ViewBag.markupValidation es true -->
+            @if (ViewBag.markupValidation == true)
+            {
+                <div class="row mt-3" id="registerSection">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-success btn-block" onclick="getAddress()">Registrar Entrada</button>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="row mt-3" id="registerSection" style="display:none;">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-success btn-block" onclick="getAddress()">Registrar Entrada</button>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<script>
+    // Función para iniciar la cámara
+    function startCamera() {
+        const video = document.getElementById('video');
+
+        // Verificamos que el elemento video exista antes de intentar acceder a él
+        if (video) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    video.srcObject = stream;
+                })
+                .catch(function (error) {
+                    alert('No se pudo acceder a la cámara: ' + error);
+                });
+        } else {
+            console.error('El elemento de video no está disponible en el DOM.');
+        }
+    }
+
+    // Llamamos a la función para activar la cámara cuando el contenido del DOM esté completamente cargado
+    document.addEventListener('DOMContentLoaded', startCamera);
+
+    // Función para tomar una foto
+    function takeSnapshot() {
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const context = canvas.getContext('2d');
+
+        // Establece el tamaño del canvas igual al del video
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+
+        // Dibuja el fotograma actual del video en el canvas
+        context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        // Convierte la imagen del canvas a formato base64
+        const imageData = canvas.toDataURL('image/png');
+
+        // Asigna la imagen al campo oculto del formulario
+        document.getElementById('imageBase64').value = imageData;
+        console.log("Imagen capturada y asignada a imageBase64.");
+    }
+
+    // Función para enviar la imagen al controlador CompareFaces
+    function submitCompareFaces() {
+        const imageField = document.getElementById('imageBase64');
+
+        if (!imageField.value) {
+            alert('Por favor, toma una foto antes de validar el rostro.');
+            return;
+        }
+
+        console.log('Contenido de imageBase64:', imageField.value.substring(0, 50)); // Mostrar parte del base64 para depuración
+        const form = document.getElementById('compareFacesForm');
+        form.submit();
+    }
+
+    // Función para capturar la ubicación del usuario y permitir el registro
+    async function getAddress() {
+        if (!navigator.geolocation) {
+            alert('La geolocalización no es compatible con este navegador');
+            return;
+        }
+
+        navigator.geolocation.getCurrentPosition(position => {
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+
+            const address = `https://www.google.com/maps?q=${latitude},${longitude}`;
+            console.log('Dirección generada:', address); // Depuración
+
+            document.getElementById('location').value = address;
+
+            const form = document.getElementById('scheduleForm');
+            form.submit();
+        }, error => {
+            alert('Error al obtener la ubicación: ' + error.message);
+        });
+    }
+</script>

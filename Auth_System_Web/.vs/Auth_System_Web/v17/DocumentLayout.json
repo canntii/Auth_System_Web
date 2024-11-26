@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\views\\schedule\\registerschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\views\\schedule\\registerschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\models\\utilitiesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\models\\utilitiesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\services\\iutilitiesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\services\\iutilitiesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\wwwroot\\js\\camerauser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\wwwroot\\js\\camerauser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\wwwroot\\js\\location.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\wwwroot\\js\\location.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\wwwroot\\js\\config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\wwwroot\\js\\config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\models\\schedulemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\models\\schedulemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|c:\\users\\bryan\\onedrive\\documentos\\github\\facial_auth_system\\auth_system_web\\auth_system_web\\views\\home\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1301A8A9-575A-4DD4-8A9E-F49B51B9BEDB}|Auth_System_Web\\Auth_System_Web.csproj|solutionrelative:auth_system_web\\views\\home\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Auth_System_Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\appsettings.json",
+              "RelativeToolTip": "Auth_System_Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T00:48:05.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUtilitiesModel.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Services\\IUtilitiesModel.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Services\\IUtilitiesModel.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Services\\IUtilitiesModel.cs",
+              "RelativeToolTip": "Auth_System_Web\\Services\\IUtilitiesModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:19:50.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UtilitiesModel.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Models\\UtilitiesModel.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Models\\UtilitiesModel.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Models\\UtilitiesModel.cs",
+              "RelativeToolTip": "Auth_System_Web\\Models\\UtilitiesModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:01:56.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Entities\\User.cs",
+              "RelativeToolTip": "Auth_System_Web\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:59:26.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Entities\\Answer.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Entities\\Answer.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Entities\\Answer.cs",
+              "RelativeToolTip": "Auth_System_Web\\Entities\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:21:23.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Models\\UserModel.cs",
+              "RelativeToolTip": "Auth_System_Web\\Models\\UserModel.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:56:06.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScheduleModel.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Models\\ScheduleModel.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Models\\ScheduleModel.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Models\\ScheduleModel.cs",
+              "RelativeToolTip": "Auth_System_Web\\Models\\ScheduleModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:56:03.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Program.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Program.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Program.cs",
+              "RelativeToolTip": "Auth_System_Web\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:35:50.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Views\\Home\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Views\\Home\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Views\\Home\\CreateUser.cshtml",
+              "RelativeToolTip": "Auth_System_Web\\Views\\Home\\CreateUser.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T21:31:11.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Auth_System_Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:24:38.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "cameraUser.js",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\wwwroot\\js\\cameraUser.js",
+              "RelativeDocumentMoniker": "Auth_System_Web\\wwwroot\\js\\cameraUser.js",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\wwwroot\\js\\cameraUser.js",
+              "RelativeToolTip": "Auth_System_Web\\wwwroot\\js\\cameraUser.js",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwKkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T21:24:17.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "location.js",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\wwwroot\\js\\location.js",
+              "RelativeDocumentMoniker": "Auth_System_Web\\wwwroot\\js\\location.js",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\wwwroot\\js\\location.js",
+              "RelativeToolTip": "Auth_System_Web\\wwwroot\\js\\location.js",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T21:06:16.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "config.js",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\wwwroot\\js\\config.js",
+              "RelativeDocumentMoniker": "Auth_System_Web\\wwwroot\\js\\config.js",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\wwwroot\\js\\config.js",
+              "RelativeToolTip": "Auth_System_Web\\wwwroot\\js\\config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T21:05:15.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "Auth_System_Web\\Controllers\\ScheduleController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:04:49.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterSchedule.cshtml",
+              "DocumentMoniker": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Views\\Schedule\\RegisterSchedule.cshtml",
+              "RelativeDocumentMoniker": "Auth_System_Web\\Views\\Schedule\\RegisterSchedule.cshtml",
+              "ToolTip": "C:\\Users\\bryan\\OneDrive\\Documentos\\GitHub\\Facial_Auth_System\\Auth_System_Web\\Auth_System_Web\\Views\\Schedule\\RegisterSchedule.cshtml",
+              "RelativeToolTip": "Auth_System_Web\\Views\\Schedule\\RegisterSchedule.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAmwIAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T02:32:29.489Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
